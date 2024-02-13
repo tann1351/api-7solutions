@@ -3,29 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
+  "scripts": { 
     "dev": "ts-node runTest.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@koa/router": "^12.0.1",
-    "@types/express": "^4.17.21",
+    "@koa/router": "^12.0.1", 
     "@types/koa__router": "^12.0.4",
     "@types/node": "^20.11.17",
-    "axios": "^1.6.7",
-    "express": "^4.18.2",
+    "axios": "^1.6.7", 
     "koa": "^2.15.0",
     "koa-bodyparser": "^4.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
-  "devDependencies": {
-    "@types/jest": "^29.5.12",
-    "@types/koa-bodyparser": "^4.3.12",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2"
+  "devDependencies": { 
+    "@types/koa-bodyparser": "^4.3.12"
   }
 }
